@@ -1,0 +1,31 @@
+/*
+* @Author: 风丶轻轻
+* @Date:   2017-12-15 00:17:09
+* @Last Modified by:   风丶轻轻
+* @Last Modified time: 2017-12-15 00:36:28
+*/
+.page-wrap{
+    padding: 30px 0;
+    margin-top: 20px;
+    text-align: center;
+    background: #fff;
+}
+.result-con{
+    display: none;
+}
+
+.result-con .result-title{
+    color: #555;
+}
+
+.result-con .result-content{
+    margin-top: 20px;
+}
+
+.result-con .result-content .link{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+

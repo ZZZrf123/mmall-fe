@@ -1,0 +1,18 @@
+/*
+* @Author: 风丶轻轻
+* @Date:   2017-12-14 21:44:19
+* @Last Modified by:   风丶轻轻
+* @Last Modified time: 2017-12-14 21:53:34
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px; 
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}  
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}

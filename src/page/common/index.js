@@ -1,9 +1,11 @@
 /*
-* @Author: zhuorunfeng
-* @Date:   2017-12-13 18:28:37
-* @Last Modified by:   zhuorunfeng
-* @Last Modified time: 2017-12-13 18:29:57
+* @Author: 风丶轻轻
+* @Date:   2017-12-14 17:34:35
+* @Last Modified by:   风丶轻轻
+* @Last Modified time: 2017-12-14 22:32:42
 */
 'use strict';
 
-console.log('i am global');
+require('./layout.css'); 
+require('node_modules/font-awesome/css/font-awesome.min.css'); 
+require('./footer/index.css');
