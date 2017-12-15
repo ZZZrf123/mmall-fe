@@ -1,0 +1,23 @@
+/*
+* @Author: 风丶轻轻
+* @Date:   2017-12-15 16:40:18
+* @Last Modified by:   风丶轻轻
+* @Last Modified time: 2017-12-15 16:41:25
+*/
+.form-line{
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.form-line .label{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.form-line .input{
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+    font-size: 14px;
+}

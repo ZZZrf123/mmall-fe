@@ -2,7 +2,7 @@
 * @Author: 风丶轻轻
 * @Date:   2017-12-14 19:25:03
 * @Last Modified by:   风丶轻轻
-* @Last Modified time: 2017-12-14 21:58:05
+* @Last Modified time: 2017-12-15 15:43:16
 */
 /* css reset */
 *{
@@ -55,6 +55,24 @@ input[type='checkbox']{
 .link-text{
     color: #999;
     text-decoration: none;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
 }
 
 /*btn*/
