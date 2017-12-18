@@ -2,7 +2,7 @@
 * @Author: 风丶轻轻
 * @Date:   2017-12-13 17:08:44
 * @Last Modified by:   风丶轻轻
-* @Last Modified time: 2017-12-15 16:42:32
+* @Last Modified time: 2017-12-18 11:54:21
 */
 var webpack            = require('webpack');
 var ExtractTextPlugin  = require("extract-text-webpack-plugin");
@@ -28,6 +28,9 @@ var config = {
     entry: {
         'common'                    : ['./src/page/common/index.js'],
         'index'                     : ['./src/page/index/index.js'],
+        'list'                      : ['./src/page/list/index.js'],
+        'cart'                      : ['./src/page/cart/index.js'],
+        'detail'                      : ['./src/page/detail/index.js'],
         'user-login'                : ['./src/page/user-login/index.js'],
         'user-register'             : ['./src/page/user-register/index.js'],
         'user-pass-reset'           : ['./src/page/user-pass-reset/index.js'],
@@ -77,6 +80,9 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-update','修改密码')),
         new HtmlWebpackPlugin(getHtmlConfig('user-center','个人中心')),
         new HtmlWebpackPlugin(getHtmlConfig('user-center-update','修改个人信息')),
+        new HtmlWebpackPlugin(getHtmlConfig('list','商品列表页')),
+        new HtmlWebpackPlugin(getHtmlConfig('detail','商品详情页')),
+        new HtmlWebpackPlugin(getHtmlConfig('cart','购物车')),
     ]
 };
 
