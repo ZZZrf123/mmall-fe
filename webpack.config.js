@@ -2,7 +2,7 @@
 * @Author: 风丶轻轻
 * @Date:   2017-12-13 17:08:44
 * @Last Modified by:   风丶轻轻
-* @Last Modified time: 2017-12-18 11:54:21
+* @Last Modified time: 2017-12-18 21:32:50
 */
 var webpack            = require('webpack');
 var ExtractTextPlugin  = require("extract-text-webpack-plugin");
@@ -30,7 +30,10 @@ var config = {
         'index'                     : ['./src/page/index/index.js'],
         'list'                      : ['./src/page/list/index.js'],
         'cart'                      : ['./src/page/cart/index.js'],
-        'detail'                      : ['./src/page/detail/index.js'],
+        'order-confirm'             : ['./src/page/order-confirm/index.js'],
+        'order-list'                : ['./src/page/order-list/index.js'],
+        'order-detail'              : ['./src/page/order-detail/index.js'],
+        'detail'                    : ['./src/page/detail/index.js'],
         'user-login'                : ['./src/page/user-login/index.js'],
         'user-register'             : ['./src/page/user-register/index.js'],
         'user-pass-reset'           : ['./src/page/user-pass-reset/index.js'],
@@ -83,6 +86,9 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('list','商品列表页')),
         new HtmlWebpackPlugin(getHtmlConfig('detail','商品详情页')),
         new HtmlWebpackPlugin(getHtmlConfig('cart','购物车')),
+        new HtmlWebpackPlugin(getHtmlConfig('order-confirm','订单确认页')),
+        new HtmlWebpackPlugin(getHtmlConfig('order-list','订单列表')),
+        new HtmlWebpackPlugin(getHtmlConfig('order-detail','订单详情')),
     ]
 };
 
